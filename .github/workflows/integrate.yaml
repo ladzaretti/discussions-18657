@@ -1,0 +1,15 @@
+name: Integration
+
+on:
+    pull_request:
+        branches: [main]
+
+jobs:
+    call_pnpm_caching_workflow:
+        name: Set pnpm caching
+        uses: ./.github/workflows/pnpm-caching.yaml
+        with:
+            runner: ubuntu-latest
+            node-version: 18
+            pnpm-version: 7.14.0
+            package-manager-version: 7.14.0
