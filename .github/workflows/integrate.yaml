@@ -11,5 +11,5 @@ jobs:
         with:
             runner: ubuntu-latest
             node-version: 18
-            pnpm-version: 7.14.0
-            package-manager-version: 7.14.0
+            pnpm-version: 7.14.1
+            package-manager-version: 7.14.1
