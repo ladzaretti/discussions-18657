@@ -2,7 +2,7 @@
 "regexManagers": [
 		{
 			"fileMatch": ["^(\\.github\\/workflows)\\/[^/]+\\.yaml$"],
-			"matchStrings": ["pnpm-version: (?<currentValue>.*?)", "package-manager-version: (?<currentValue>.*?)"],
+			"matchStrings": ["pnpm-version: (?<currentValue>.*)", "package-manager-version: (?<currentValue>.*)"],
 			"depNameTemplate": "pnpm",
 			"datasourceTemplate": "npm"
 		}
